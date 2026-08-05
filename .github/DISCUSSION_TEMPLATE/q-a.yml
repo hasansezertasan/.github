@@ -1,0 +1,31 @@
+# The filename must match the category slug. This targets the built-in "Q&A"
+# category (slug: q-a). Rename if your category slug differs.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, please check the project `README.md` and search existing
+        discussions and issues — your question may already be answered.
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+      description: Describe what you're trying to do and where you're stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Commands, code, or docs you've already looked at.
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Relevant versions (OS, runtime, package) if applicable.
+    validations:
+      required: false

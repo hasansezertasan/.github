@@ -1,0 +1,10 @@
+# CODEOWNERS for the hasansezertasan/.github repository.
+#
+# NOTE: CODEOWNERS is NOT a default community health file. It applies ONLY to
+# this repository and does NOT propagate to other repositories. Each repo that
+# needs code ownership rules must define its own CODEOWNERS file.
+#
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in this repo.
+*   @hasansezertasan

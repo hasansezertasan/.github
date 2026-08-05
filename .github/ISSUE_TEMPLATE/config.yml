@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & usage help
+    url: https://github.com/hasansezertasan
+    about: Please ask and answer questions in the relevant repository's Discussions.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/hasansezertasan/.github/security/policy
+    about: Do not open a public issue for security problems — follow the security policy.
