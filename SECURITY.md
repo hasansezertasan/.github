@@ -21,9 +21,15 @@ Instead, report them privately through GitHub's built-in
 2. Click **Report a vulnerability** (under *Advisories*).
 3. Fill out the form with as much detail as you can.
 
-If private reporting is not enabled on a given repository, please open a regular
-issue that says only *"I would like to report a security vulnerability"* — with
-no further details — and a maintainer will follow up with a private channel.
+If a repository does not show the **Report a vulnerability** button, private
+reporting has not been enabled there yet — please **do not** disclose the issue
+in a public issue, pull request, or discussion. Instead, contact the maintainer
+privately via [their GitHub profile](https://github.com/hasansezertasan) so a
+secure channel can be arranged.
+
+> **Maintainers:** enable
+> [private vulnerability reporting][enable] on every repository so reporters
+> always have a secure, low-disclosure path.
 
 ### What to include
 
@@ -45,3 +51,4 @@ Please act in good faith, avoid privacy violations and service disruption, and
 give us reasonable time to address the issue before any public disclosure.
 
 [pvr]: https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability
+[enable]: https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository
