@@ -1,0 +1,34 @@
+# The filename must match the category slug. This targets the built-in "Ideas"
+# category (slug: ideas). Rename if your category slug differs.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make a project better? Share it here. For confirmed
+        bugs or concrete feature requests, please open an issue instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: Describe your idea and the problem it would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or prior art
+      description: Similar solutions elsewhere, or approaches you've considered.
+    validations:
+      required: false
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you be willing to help?
+      options:
+        - "Yes, I could open a PR"
+        - "Maybe, with some guidance"
+        - "No, just suggesting"
+    validations:
+      required: false
