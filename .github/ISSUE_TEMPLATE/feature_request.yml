@@ -7,8 +7,8 @@ body:
     attributes:
       value: |
         Thanks for the suggestion! Please search
-        [existing issues](../issues) and
-        [discussions](../discussions) first — your idea may already be tracked.
+        [existing issues](../../issues) and
+        [discussions](../../discussions) first — your idea may already be tracked.
   - type: checkboxes
     id: preflight
     attributes:

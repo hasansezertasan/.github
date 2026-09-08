@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to file a bug report! Please search
-        [existing issues](../issues) first to avoid duplicates.
+        [existing issues](../../issues) first to avoid duplicates.
   - type: checkboxes
     id: preflight
     attributes:

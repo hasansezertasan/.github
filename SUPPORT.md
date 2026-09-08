@@ -33,5 +33,5 @@ I can, but there is no guaranteed response time or SLA. Clear, reproducible
 reports and well-scoped pull requests get resolved fastest. Thank you for your
 patience and understanding.
 
-[issues]: https://github.com/hasansezertasan
-[discussions]: https://github.com/hasansezertasan
+[issues]: ../../issues
+[discussions]: ../../discussions
