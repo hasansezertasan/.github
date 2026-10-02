@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & usage help
+    url: ../../discussions
+    about: Please ask and answer questions in the relevant repository's Discussions.
+  - name: 🔒 Report a security vulnerability
+    url: ../../security/policy
+    about: Do not open a public issue for security problems — follow the security policy.
